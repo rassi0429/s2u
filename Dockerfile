@@ -4,4 +4,4 @@ COPY package.json .
 COPY package-lock.json .
 COPY unchi.mjs .
 RUN npm i
-CMD ["node","main.mjs"]
+CMD ["node","unchi.mjs"]

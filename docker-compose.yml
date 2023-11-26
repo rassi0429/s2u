@@ -5,4 +5,4 @@ services:
     init: true
     restart: on-failure:3
     ports:
-      - "127.0.0.1:3009:3000"
+      - "127.0.0.1:3009:5000"
